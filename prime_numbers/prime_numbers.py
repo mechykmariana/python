@@ -1,3 +1,8 @@
+class Class:
+    def __init__(self, x, y):
+         self.x = x
+         self.y = y
+
 def isPrime(x):
     if x < 2:
         return False
